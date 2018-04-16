@@ -1,0 +1,82 @@
+
+    #paulLogo {
+      color: black;
+      font-size: 70px;
+      text-align: center;
+      font-family: 'East Sea Dokdo', cursive;
+    }
+
+    @font-face {
+      font-family: chinese;
+      src:url(bodang-xingkai.ttf);
+    }
+
+    #chineseLogo {
+      font-family: "chinese";
+      text-align: center;
+      font-size: 50px;
+    }
+
+    body {
+      background:
+      linear-gradient(
+        rgba(255, 255, 255, 1),
+        rgba(255, 255, 255, 0.3)
+        ),
+      url("../Background/green-tea-2356770_1920.jpg");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+
+    #main ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+    }
+
+    #main li {
+          float: left;
+    }
+
+    #main li a {
+          font-size: 30px;
+          font-family: 'Open Sans Condensed', sans-serif;
+          display: inline-block;
+          color: black;
+          text-align: center;
+          padding: 10px 80px 10px 80px;
+          text-decoration: none;
+    }
+
+    #main li a:hover {
+          text-decoration: underline;
+    }
+
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+    }
+
+    #ending {
+      text-align: center;
+      font-family: 'Open Sans Condensed', sans-serif;
+      color: black;
+      width: 1000px;
+      margin: 200px auto 10px auto;
+    }
+
+    .fa-facebook-square {
+      font-size: 20px;
+    }
+
+    .fa-yelp {
+      font-size: 20px;
+    }
+
+    #socialIcons {
+      text-align: center;
+    }
