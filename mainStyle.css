@@ -1,7 +1,7 @@
 
     #paulLogo {
       color: black;
-      font-size: 70px;
+      font-size: 80px;
       text-align: center;
       font-family: 'East Sea Dokdo', cursive;
     }
@@ -24,7 +24,7 @@
         rgba(255, 255, 255, 0.7)
         ),
       url("Background/green-tea-2356770_1920_V.jpg");
-      background-size: 100%;
+      background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed;
     }
