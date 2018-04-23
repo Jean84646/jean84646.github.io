@@ -20,13 +20,27 @@
     body {
       background:
       linear-gradient(
-        rgba(255, 255, 255, 1),
-        rgba(255, 255, 255, 0.3)
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 0.7)
         ),
-      url("../Background/green-tea-2356770_1920.jpg");
+      url("Background/green-tea-2356770_1920_V.jpg");
       background-size: 100%;
       background-repeat: no-repeat;
       background-attachment: fixed;
+    }
+
+    @media only screen and (min-device-width: 800px) {
+      body {
+        background:
+        linear-gradient(
+          rgba(255, 255, 255, 0.9),
+          rgba(255, 255, 255, 0.1)
+          ),
+        url("Background/green-tea-2356770_1920.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
     }
 
     #main ul {
@@ -66,7 +80,7 @@
       font-family: 'Open Sans Condensed', sans-serif;
       color: black;
       width: 1000px;
-      margin: 200px auto 10px auto;
+      margin: 250px auto 10px auto;
     }
 
     .fa-facebook-square {
