@@ -1,12 +1,12 @@
-# _{Application Name}_
+# _Paul's Asian Food_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _A restaurant website for Paul's Asian Food, 05/20/2018_
 
-#### By _**{List of contributors}**_
+#### By _**Jean Jia**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_A restaurant website for Paul's Asian Food with links for menu, hours, images, social media, and google direction_
 
 ## Setup/Installation Requirements
 
@@ -19,10 +19,10 @@ _Contact jean84646@gmail.com for any issues, questions, ideas, or concerns._
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_HTML, CSS, bootstrap, Github_
 
 ### License
 
 *This software is licensed under the MIT license.*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2018 **_Jean Jia_**
