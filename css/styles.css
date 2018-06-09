@@ -95,6 +95,10 @@ img {
   margin: 25 0 0 125;
 }
 
+.col-md-6 {
+  padding-left: 150px;
+}
+
 #awesomeMap {
   margin: 0 auto 0 auto;
   width: 800px;
