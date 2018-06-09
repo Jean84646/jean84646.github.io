@@ -1,6 +1,6 @@
-h1 {
+#paulLogo {
   color: black;
-  font-size: 85px;
+  font-size: 80px;
   text-align: center;
   font-family: 'East Sea Dokdo', cursive;
 }
@@ -13,7 +13,7 @@ h1 {
 #chineseLogo {
   font-family: "chinese";
   text-align: center;
-  font-size: 45px;
+  font-size: 50px;
 }
 
 body {
@@ -26,8 +26,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 22px;
 }
 
 @media only screen and (min-device-width: 800px) {
@@ -44,17 +42,10 @@ body {
   }
 }
 
-.container {
-  width: 95%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-ul {
-  list-style-type: none;
-}
-
 #main ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
       overflow: hidden;
 }
 
@@ -83,32 +74,12 @@ img {
   width: 80%;
 }
 
-#price {
-  margin: 25 0 0 125;
-}
-
-#special {
-  margin-left: 125px;
-}
-
-#items {
-  margin: 25 0 0 125;
-}
-
-#awesomeMap {
-  margin: 0 auto 0 auto;
-  width: 800px;
-}
-
 #ending {
   text-align: center;
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 15px;
-  margin: 25% auto 5 auto;
-}
-
-#socialIcons {
-  text-align: center;
+  color: black;
+  width: 1000px;
+  margin: 250px auto 10px auto;
 }
 
 .fa-facebook-square {
@@ -117,4 +88,32 @@ img {
 
 .fa-yelp {
   font-size: 20px;
+}
+
+#socialIcons {
+  text-align: center;
+}
+
+#price {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  margin-left:125px;
+}
+
+#awesomeMap {
+  margin: 0 auto 0 auto;
+  width: 800px;
+}
+
+
+#special {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  margin-left: 100px;
+}
+
+#items {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  margin-left: 150px;
 }
